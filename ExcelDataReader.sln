@@ -16,11 +16,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelDataReader.DataSet", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApp", "src\TestApp\TestApp.csproj", "{BCE486DF-3DA2-42A2-BF38-376B17CEF434}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelDataReader.Net45.Tests", "test\ExcelDataReader.Net45.Tests\ExcelDataReader.Net45.Tests.csproj", "{7ABFA914-8980-4630-B7E5-92921E5D897D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelDataReader.Net45.Tests", "test\ExcelDataReader.Net45.Tests\ExcelDataReader.Net45.Tests.csproj", "{7ABFA914-8980-4630-B7E5-92921E5D897D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelDataReader.Net20.Tests", "test\ExcelDataReader.Net20.Tests\ExcelDataReader.Net20.Tests.csproj", "{C2D80729-09EE-4E17-869D-2C9075E0ED29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelDataReader.Net20.Tests", "test\ExcelDataReader.Net20.Tests\ExcelDataReader.Net20.Tests.csproj", "{C2D80729-09EE-4E17-869D-2C9075E0ED29}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelDataReader.Netstandard20.Tests", "test\ExcelDataReader.Netstandard20.Tests\ExcelDataReader.Netstandard20.Tests.csproj", "{5935CED9-6CB6-47F3-BE86-8F025599B251}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisplayChartExcel", "..\..\..\Documents\OO\DisplayChartExcel\DisplayChartExcel.csproj", "{5E922900-4309-41A9-A3EC-0E9E91786AA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,8 +58,15 @@ Global
 		{5935CED9-6CB6-47F3-BE86-8F025599B251}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5935CED9-6CB6-47F3-BE86-8F025599B251}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5935CED9-6CB6-47F3-BE86-8F025599B251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E922900-4309-41A9-A3EC-0E9E91786AA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E922900-4309-41A9-A3EC-0E9E91786AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E922900-4309-41A9-A3EC-0E9E91786AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E922900-4309-41A9-A3EC-0E9E91786AA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14A68101-519A-4D3A-A89E-C948FC40ABE8}
 	EndGlobalSection
 EndGlobal
